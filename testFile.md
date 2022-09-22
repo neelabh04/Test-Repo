@@ -109,3 +109,6 @@ git branch (new branch)
 aise bhi hum new branch create kar sakte hai
 
 _"Storm-breaker branch pe hunn me aur changes laa raha."_
+
+## `git merge`
+- Jo changes kare hai kisi branch me agar woh main root branch ke saath merge karne ho toh yeh karte hai
