@@ -112,3 +112,12 @@ _"Storm-breaker branch pe hunn me aur changes laa raha."_
 
 ## `git merge`
 - Jo changes kare hai kisi branch me agar woh main root branch ke saath merge karne ho toh yeh karte hai
+- Jis branch me changes kare hai pehle unko aaram se "add, commit" karlo
+- Fir main/root branch pe aao via `checkout` command
+- uske baad command likho
+
+```git 
+git merge (kaunsi branch merge karni hai uska naam)
+```
+**Merge karne ke liye zaroori hai aap main branch pe ho**
+
