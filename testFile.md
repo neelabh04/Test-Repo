@@ -33,14 +33,40 @@ Thodi iski clarity paani hogi
     - **red line** me jo aayega yaani woh hata hai (original state)
     - _Green line_ me jo aayega yaani woh change hua hai
 
-## `git add`
-- iss command se hum jo _**untracked changes ko staging area**_ me le aate hai 
+```git
+git diff (File Name)
+```
 
+## `git add`
 What is staging area ?
 
 Temporary save ki tarah hota hai baas aur kuch nahi. Suppose tumne kuch kaam kara aur chahte ho ki ab woh save hojaye toh 
 
-> `git add` (file name with extension)
+- iss command se hum jo _**untracked changes ko staging area**_ me le aate hai 
 
 Ab kuch chudaap kardia tumne aur chahte ho waapis aana toh revert ka function hota hai. Aage discuss karenge.
 
+```git
+ git add (file name with extension)
+```
+
+## `git show`
+- iss se hume yeh pta chalta hai ki kya changes huye hai as per the comment 
+
+```git
+git show (hash number)
+```
+
+## `git commit`
+- jab humne saare changes karliye hote hai aur staging area se finally apni working branch pe daalne hote hai tab iska use karte hai
+
+```git
+git commit -m "(Message Name)"
+```
+
+
+## Branches and stuff
+
+1. `git checkout` : basically tells which branch are we on
+2. `git branch` : branch ke hisaab se commands hai yaha pe
+ 
