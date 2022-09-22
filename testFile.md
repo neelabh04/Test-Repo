@@ -64,9 +64,27 @@ git show (hash number)
 git commit -m "(Message Name)"
 ```
 
+## `git log`
+- iss se hum project ke saare logs dekh sakte hai
 
-## Branches and stuff
+```git
+git log (iss se saare logs dikhenge)
+git log -5 (last 5 recently logged entries)
+```
 
-1. `git checkout` : basically tells which branch are we on
-2. `git branch` : branch ke hisaab se commands hai yaha pe
- 
+## `git branch` 
+ -  basically tells which branch are we on
+ ```git
+    git branch 
+ ```
+## `git checkout` 
+Suppose hume new feature laana ho aur current working product ko chhed na nahi hai. Toh hum branch nikalenge. 
+
+> Yeh tree ki tarah hogaya ki root main hai apna aur branch nikal ke new cheez pe kaam ho raha. Agar sab sahi raha toh root se merge hojayega
+
+```git
+git checkout -b thunderBolt
+```
+This will create a new branch from the working tree. New branch's name would be `thunderBolt`
+
+
