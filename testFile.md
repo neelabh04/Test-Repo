@@ -87,4 +87,23 @@ git checkout -b thunderBolt
 ```
 This will create a new branch from the working tree. New branch's name would be `thunderBolt`
 
+Agar hum `git checkout (main branch)` kare toh hum seedha original root pe aajayenge.
 
+Yaani checkout basically branches pe travel karne ke liye hai
+
+## `git branch`
+- branches pe hume kya operations karna hai uss hisaab se hai
+
+```git
+git branch -d (branch name)
+```
+Iss command se hum branch ko delete kar sakte hai 
+
+> **Jis branch pe kaam kar rhe hai usko delete nahi kar sakte hai**
+
+Yaani jis daali pe ho usko nahi kaat sakte jab tak dusari daali pe naa chale jao
+
+```git
+git branch (new branch)
+```
+aise bhi hum new branch create kar sakte hai
