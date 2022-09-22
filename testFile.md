@@ -136,10 +136,20 @@ _Merge karne ke liye zaroori hai aap main branch pe ho_
 git merge (kaunsi branch merge karni hai uska naam)
 ```
 
-## Mergin and conflict resolution
+### `restore`
+Iska kaam dekhna hai ki kya karta hai
+
+## Hard
+### `pull`
+- iss me dekhna hoga ki kya kaam hota hai
+
+[Yaha se dekhna hai](https://youtu.be/uj4fy4kpaOA?t=1729)
+
+### Mergin and conflict resolution
 1. `git reset --hard HEAD^` 
 	- yeh command humare **code changes and commit dono ko hata dega**
 2. `git reset --soft (hash name)` 
 	- iss se **sirf commit hatega** _code changes present rahenge._
 
 # Final Thoughts
+
