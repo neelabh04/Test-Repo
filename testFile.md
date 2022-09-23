@@ -151,5 +151,8 @@ Iska kaam dekhna hai ki kya karta hai
 2. `git reset --soft (hash name)` 
 	- iss se **sirf commit hatega** _code changes present rahenge._
 
-# Final Thoughts
-
+### `amend`
+Need to see about this properly. Commits ka naam change karne me help karta hai yeh sahi se. 
+```git
+git commit --amend 
+```
