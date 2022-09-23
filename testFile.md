@@ -156,3 +156,8 @@ Need to see about this properly. Commits ka naam change karne me help karta hai 
 ```git
 git commit --amend 
 ```
+
+Yaha pe username change kia hai via 
+```
+git config --global user.name "(new name)"
+```
