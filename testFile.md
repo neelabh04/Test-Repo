@@ -90,6 +90,7 @@ git show (hash number)
 ```git
 git log (iss se saare logs dikhenge)
 git log -5 (last 5 recently logged entries)
+git log --oneline (shows only commit message)
 ```
 
 ### `branch`
